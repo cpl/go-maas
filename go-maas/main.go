@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/json"
+	"fmt"
 	"log"
 	"net/http"
 )
@@ -22,5 +23,8 @@ func main() {
 		log.Fatal(err)
 	}
 
-	// TODO Parse strings into apropriate data types
+	// Parse soles
+	for index, sol := range csicResponse.Soles {
+		fmt.Println(index, sol2fsol(sol))
+	}
 }

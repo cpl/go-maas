@@ -1,6 +1,7 @@
 # Golang MAAS API
 
 [NASA](https://www.nasa.gov)'s Mars Atmospheric Aggregation System (MAAS) Golang API
+[![Go Report Card](https://goreportcard.com/badge/github.com/thee-engineer/go-maas)](https://goreportcard.com/report/github.com/thee-engineer/go-maas)
 
 ## [CAB](http://www.cab.inta.es/en/inicio) Disclaimer
 
